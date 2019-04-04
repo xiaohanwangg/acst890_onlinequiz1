@@ -1,0 +1,5 @@
+# part a
+$ scp -i 44384246.pem tutes.txt ubuntu@ec2-52-63-175-61.ap-southeast-2.compute.amazonaws.com:
+# part b
+$ ssh -i 44384246.pem ubuntu@ec2-52-63-175-61.ap-southeast-2.compute.amazonaws.com
+ubuntu@ip-172-31-24-99:~$ sort -u tutes.txt
