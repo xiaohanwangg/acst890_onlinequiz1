@@ -1,0 +1,8 @@
+# part a
+ubuntu@ip-172-31-24-99:~$ egrep '^[^ ]+[^ ]+[^ ]+$' Q3_a_test.txt
+# part b
+ubuntu@ip-172-31-24-99:~$ egrep -e '-[0-9]+' Q3_b_test.txt
+# part c
+ubuntu@ip-172-31-24-99:~$ egrep -e '[0-9\.0-9 ]' Q3_c_test.txt
+# part d
+ubuntu@ip-172-31-24-99:~$ egrep 'hydrogenase'  Q3_d_test.txt
