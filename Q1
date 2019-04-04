@@ -1,0 +1,10 @@
+# part a
+$ ssh -i 44384246.pem ubuntu@ec2-52-63-175-61.ap-southeast-2.compute.amazonaws.com
+ubuntu@ip-172-31-24-99:~$ curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh > triplet-stop.sh
+ubuntu@ip-172-31-24-99:~$ cat triplet-stop.sh
+# part b
+ubuntu@ip-172-31-24-99:~$ cp triplet-stop.sh triplet-stop1.sh
+ubuntu@ip-172-31-24-99:~$ nano triplet-stop1.sh
+# modify the code 
+# test
+ubuntu@ip-172-31-24-99:~$ ./triplet-stop1.sh atgtaacttagtagctaagt
